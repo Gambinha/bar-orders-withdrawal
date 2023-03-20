@@ -22,4 +22,4 @@ const setTicketsToLocalStorage = (ticketsList) => {
     localStorage.setItem('tickets-list', JSON.stringify(ticketsList))
 }
 
-module.exports = {addTicketToLocalStorage, deleteTicketFromLocalStorage, getTicketsFromLocalStorage}    
+export {addTicketToLocalStorage, deleteTicketFromLocalStorage, getTicketsFromLocalStorage}    

@@ -1,6 +1,4 @@
-// import {getTicketsFromLocalStorage, addTicketToLocalStorage, deleteTicketFromLocalStorage} from './local-storage.js'
-const {getTicketsFromLocalStorage, addTicketToLocalStorage, deleteTicketFromLocalStorage} = require('./local-storage.js')
-
+import {getTicketsFromLocalStorage, addTicketToLocalStorage, deleteTicketFromLocalStorage} from './local-storage.js'
 
 const form = document.getElementById('ticket-input-form')
 const ticketsVisor = document.getElementById('tickets-visor')
